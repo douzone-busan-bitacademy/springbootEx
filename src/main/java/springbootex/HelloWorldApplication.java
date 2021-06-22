@@ -5,7 +5,6 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 
 /**
  * Bootstrap Class
@@ -18,7 +17,7 @@ import org.springframework.context.annotation.ComponentScan;
 // @SpringBootApplication 메타 어노테이션
 // @SpringBootConfiguration(alias for @Configuration)
 // @ComponentScan
-// @AutoConfiguration 
+// @EnableAutoConfiguration 
 // 
 //
 //
